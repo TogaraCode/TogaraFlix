@@ -10,7 +10,6 @@ function Row({ title, fetchUrl, isLargeRow }) {
   const [movies, setMovies] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
 
-  // A snippet of code which runs based on a specific condition/variable
   useEffect(() => {
     // if [], run once when the row loads,and dont run again
     async function fetchData() {
@@ -29,7 +28,7 @@ function Row({ title, fetchUrl, isLargeRow }) {
       autoplay: 1,
     },
   };
-  //heloo Liv
+
   const handleClick = (movie) => {
     if (trailerUrl) {
       setTrailerUrl("");
