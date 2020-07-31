@@ -19,15 +19,14 @@ function Nav() {
     <div className={`nav ${show && "nav__black"}`}>
       <img
         className="nav__logo"
-        src
-        href="togaraNerdsIcon.png"
-        alt
-        href="togaraNerdsIcon.png"
+        src="./togaraNerdsIcon.png"
+        href="./togaraNerdsIcon.png"
+        alt="TogaraFlix Logo"
       />
 
       <img
         className="nav__avatar"
-        src="https://pbs.twimg.com/profile_images/12401155"
+        src="./togaraNerdsIcon.png"
         alt="Netflix Logo"
       />
     </div>
